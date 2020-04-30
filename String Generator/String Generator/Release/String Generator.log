@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  Generator.cpp
+  StringGenerator.cpp
+StringGenerator.cpp(18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода
+  960 of 973 functions (98.7%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  String Generator.vcxproj -> C:\Users\HP\Desktop\TA lab1 full\String Generator\Release\String Generator.exe
+  String Generator.vcxproj -> C:\Users\HP\Desktop\TA lab1 full\String Generator\Release\String Generator.pdb (Full PDB)

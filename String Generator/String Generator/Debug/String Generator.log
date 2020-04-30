@@ -1,0 +1,4 @@
+﻿  StringGenerator.cpp
+c:\users\hp\desktop\ta\stgen\string generator\string generator\stringgenerator.cpp(18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  String Generator.vcxproj -> C:\Users\HP\Desktop\TA\StGen\String Generator\Debug\String Generator.exe
+  String Generator.vcxproj -> C:\Users\HP\Desktop\TA\StGen\String Generator\Debug\String Generator.pdb (Partial PDB)

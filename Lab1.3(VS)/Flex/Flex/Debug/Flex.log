@@ -1,0 +1,30 @@
+﻿  Lexer.flex.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(48): warning C4005: INT8_MIN: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(63): note: см. предыдущее определение "INT8_MIN"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(49): warning C4005: INT16_MIN: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(66): note: см. предыдущее определение "INT16_MIN"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(50): warning C4005: INT32_MIN: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(69): note: см. предыдущее определение "INT32_MIN"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(52): warning C4005: INT8_MAX: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(72): note: см. предыдущее определение "INT8_MAX"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(53): warning C4005: INT16_MAX: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(75): note: см. предыдущее определение "INT16_MAX"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(54): warning C4005: INT32_MAX: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(78): note: см. предыдущее определение "INT32_MAX"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(56): warning C4005: UINT8_MAX: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(81): note: см. предыдущее определение "UINT8_MAX"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(57): warning C4005: UINT16_MAX: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(84): note: см. предыдущее определение "UINT16_MAX"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(58): warning C4005: UINT32_MAX: изменение макроопределения
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\lexer.flex.cpp(87): note: см. предыдущее определение "UINT32_MAX"
+  Assoc.cpp
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(56): error C2065: yyFlexLexer: необъявленный идентификатор
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(56): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ftp"
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(56): error C3861: ftp: идентификатор не найден
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(61): error C2065: ftp: необъявленный идентификатор
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(61): error C2228: выражение слева от ".yylex" должно представлять класс, структуру или объединение
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(61): note: тип: unknown-type
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(69): error C2065: ftp: необъявленный идентификатор
+c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(69): error C2228: выражение слева от ".YYText" должно представлять класс, структуру или объединение
+  c:\users\hp\desktop\ta lab1 full\lab1.3(vs)\flex\flex\assoc.cpp(69): note: тип: unknown-type
+  Создание кода...

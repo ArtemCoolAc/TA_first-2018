@@ -1,0 +1,139 @@
+%header mail.h
+%class Mail
+
+%start MainMap::M0
+
+%map MainMap
+%%
+Default
+{
+	reset M0 {}
+	EOS nil {Unacceptable();}
+	Unknown Error {}
+	Default Error {}
+}
+
+Error
+{
+}
+
+M0
+{
+	letter(let: char)[let == 'm'||let == 'M'] M1 {}
+}
+
+M1
+{
+	letter(let: char)[let == 'a'||let == 'A'] M2 {}
+}
+
+M2
+{
+	letter(let: char)[let == 'i'||let == 'I'] M3 {}
+}
+
+M3
+{
+	letter(let: char)[let == 'l'||let == 'L'] M4 {}
+}
+
+M4
+{
+	letter(let: char)[let == 't'||let == 'T'] M5 {}
+}
+
+M5
+{
+	letter(let: char)[let == 'o'||let == 'O'] M6 {}
+}
+
+M6
+{
+	tdot() NameS {}
+}
+
+NameS
+{
+	letter(let: char) Name {NPush(let);}
+	digit(dig: char) Name {NPush(dig);}
+}
+
+Name
+{
+	letter(let: char) nil {NPush(let);}
+	digit(dig: char) nil {NPush(dig);}
+	at ServerS {}
+}
+
+ServerS
+{
+	letter(let: char) Server {}
+	digit(dig: char) Server {}
+}
+
+Server
+{
+	letter(let: char) nil {}
+	digit(dig: char) nil {}
+	point ZoneS {}
+}
+
+ZoneS
+{
+	letter(let: char) Zone {}
+}
+
+Zone
+{
+	letter(let: char) nil {}
+	qmark S0 {}
+}
+
+S0
+{
+	letter(let: char)[let == 's'||let == 'S'] S1 {}
+}
+
+S1
+{
+	letter(let: char)[let == 'u'||let == 'U'] S2 {}
+}
+
+S2
+{
+	letter(let: char)[let == 'b'||let == 'B'] S3 {}
+}
+
+S3
+{
+	letter(let: char)[let == 'j'||let == 'J'] S4 {}
+}
+
+S4
+{
+	letter(let: char)[let == 'e'||let == 'E'] S5 {}
+}
+
+S5
+{
+	letter(let: char)[let == 'c'||let == 'C'] S6 {}
+}
+
+S6
+{
+	letter(let: char)[let == 't'||let == 'T'] S7 {}
+}
+
+S7
+{
+	eq() Text {TextR();}
+}
+
+Text
+{
+	letter(let: char)[TextL(64)] nil {TextLInc();}
+	digit(dig: char)[TextL(64)] nil {TextLInc();}
+	EOS nil {Acceptable();}
+}
+
+%%

@@ -1,0 +1,13 @@
+mailTo:receiver@servername.zonename?subject=txt
+mailTo:river@servErname.zoNename?subject=Php
+mailTo:reCeiver@servername.zonename?subject=txt
+mAilTo:receiver@servername.zonename?subject=cccc
+maiTo:receiver@servername.zonename?subject=txt
+mailTo:receiver@servername.zonename?sbject=txt
+mailTo:ceiver@servername.zonename?subject=text
+MailTO:rIVer@sErVeR.nzone?sUbJeCt=
+mailto:receiver@server.z1ne?subject=tttt
+mailto:r*ver@server.zone?sUbject=txttt
+mailto:reCeiver@s&ver.zone?subject=tptptptp
+mailto:rEcCever@server.zone?subJect=t()t
+mailto:rECEiver@SerVer.ZoNe?subject=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

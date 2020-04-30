@@ -1,0 +1,18 @@
+mailTo:receiver@servername.zonename?subject=txt : корректная
+mailTo:river@servErname.zoNename?subject=Php : корректная
+mailTo:reCeiver@servername.zonename?subject=txt : корректная
+mAilTo:receiver@servername.zonename?subject=cccc : корректная
+maiTo:receiver@servername.zonename?subject=txt : инвалид
+mailTo:receiver@servername.zonename?sbject=txt : инвалид
+mailTo:ceiver@servername.zonename?subject=text : корректная
+MailTO:rIVer@sErVeR.nzone?sUbJeCt= : корректная
+mailto:receiver@server.z1ne?subject=tttt : корректная
+mailto:r*ver@server.zone?sUbject=txttt : инвалид
+mailto:reCeiver@s&ver.zone?subject=tptptptp : инвалид
+mailto:rEcCever@server.zone?subJect=t()t : инвалид
+mailto:rECEiver@SerVer.ZoNe?subject=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa : инвалид
+
+Статистика использования имен получателя (все ники приведены к нижнему регистру):
+ceiver - 1
+receiver - 4
+river - 2
